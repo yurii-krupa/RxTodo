@@ -13,7 +13,6 @@ import RxCocoa
 class TodoViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-//    @IBOutlet weak var addBarButton: UIBarButtonItem!
     
     var todoModel: TodoModel = TodoModel()
     let disposeBag = DisposeBag()
@@ -81,3 +80,4 @@ extension String {
         return str
     }
 }
+//Changes ...

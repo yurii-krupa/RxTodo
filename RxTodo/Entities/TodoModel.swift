@@ -21,9 +21,7 @@ struct TodoModel {
 
     func setTodoModelTemo(_ param: [Todo]) {
         self.todoBehavioeRelay.accept(param)
-//        self.todoBehavioeRelay.subscribe(onNext: {
-//          print($0.description)
-//        }).disposed(by: DisposeBag())
+
     }
     
     func addNewTodo(_ todo: Todo) {
@@ -33,3 +31,4 @@ struct TodoModel {
     }
     
 }
+//Changes ...
